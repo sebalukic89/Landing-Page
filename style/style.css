@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.topnav li a.active {
+    background-color: #2762eb;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+
+.container-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/orchestra.jpg');
+    height: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #2762eb;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #555;
+    color: white;
+}
+
+.container-two {
+    background-color: lightgray;
+    padding: 100px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.responsive-iframe {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+}
+
+
+.container-three {
+    background-color: black;
+    padding: 100px;
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+    flex: 1.5;
+    padding: 40px;
+}
+
+.feature {
+    padding-left: 30px;
+    position: relative;
+    margin: 40px 0;
+    text-align: left;
+}
+
+.feature i {
+    color: #2762eb;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.feature h3 {
+    margin: 0;
+}
+
+.feature p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 5px 0;
+}
+
+.container-four {
+    background-color: white;
+    padding: 100px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 80%;
+    width: 100%;
+    background-color: white;
+}
+
+.card {
+    border: 1px solid black;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+
+}
+
+.card h1 {
+    background-color: black;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.card h3 {
+    color: black;
+    font-size: 28px;
+}
+
+.card p {
+    color: black;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    width: 100%;
+}
+
+footer p {
+    text-align: right;
+    background-color: #333;
+    width: 100%;
+    margin: 0;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+ul.bottom-footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.bottom-footer li {
+    float: right;
+}
+
+ul.bottom-footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.bottom-footer li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.bottom-footer p {
+    background-color: #333;
+}
